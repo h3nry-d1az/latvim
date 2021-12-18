@@ -13,7 +13,7 @@ de archivos de código **Latino**, donde la extensión de Primitivo fallaba.
 Si usted se encuentra trabajando con el manejador de extensiones de **Vim**
 **vim-plug**, añada las siguientes líneas de código a su archivo de configuración
 de **Vim**, probablemente `.vimrc` si se encuentra en un entorno **UNIX** o `_vimrc`
-si, por el contrario, se encuentra en `MS-Windows`:
+si, por el contrario, se encuentra en **MS-Windows**:
 ```vim
 Plug 'h3nry-d1az/latvim'
 ```

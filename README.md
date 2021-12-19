@@ -15,5 +15,7 @@ Si usted se encuentra trabajando con el manejador de extensiones de **Vim**
 de **Vim**, probablemente `.vimrc` si se encuentra en un entorno **UNIX** o `_vimrc`
 si, por el contrario, se encuentra en **MS-Windows**:
 ```vim
-Plug 'h3nry-d1az/latvim'
+call plug#begin('tu-directorio-de-extensiones')
+    Plug 'h3nry-d1az/latvim'
+call plug#end
 ```

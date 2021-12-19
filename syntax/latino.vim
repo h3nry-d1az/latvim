@@ -10,9 +10,9 @@ set cpo&vim
 " storage
 " syn keyword latTypeDecleration    clase lista diccionario principal constructor propiedad publica privada protegida
 " repeat / condition / label
-syn keyword latRepeat      desde mientras repetir   hasta   por  cada    en
-syn keyword latConditional global   si       osi    sino      fin     elegir    caso    defecto
-syn keyword latLabel       romper   continuar retorno   ret     retornar    esta    funcion    fun
+syn keyword latRepeat      desde    mientras  repetir   hasta   por       cada    en      para
+syn keyword latConditional global   si        osi       sino    fin       elegir  caso    defecto
+syn keyword latLabel       romper   continuar retorno   ret     retornar  esta    funcion fun
 syn keyword latConstant    falso    verdadero
 syn match cCustomFunc /\w\+\s*(/me=e-1,he=e-1
 
